@@ -1,0 +1,2 @@
+wasr_rn50.pth filter=lfs diff=lfs merge=lfs -text
+wasr_rn101.pth filter=lfs diff=lfs merge=lfs -text

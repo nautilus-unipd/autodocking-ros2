@@ -1,0 +1,18 @@
+torch>=1.7.0
+torchvision>=0.9.0
+pytorch-lightning>=1.0.6
+torchmetrics
+Pillow
+numpy
+tqdm
+albumentations
+tensorboard
+typeguard # to resolve a dependency error while doing 'pip install -r requirements.txt'
+
+
+# con questa riga puoi installare piu cose (versione gpu)
+# pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+
+# questi sono i parametri che ho passato io
+# --weight weights/wasr_rn101.pth examples/images/1.jpg output/predictions/1.jpg
