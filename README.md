@@ -16,8 +16,7 @@ git checkout docker-fix
 Download this repository:
 ```bash
 cd .. && \
-git clone https://github.com/nautilus-unipd/autodocking-ros2 && \
-cp -r autodocking-ros2/autodocking_saver sensing-rigs-ros2/ros2_ws/src/sensing_nodes/
+git clone https://github.com/nautilus-unipd/autodocking-ros2
 ```
 
 Download the model weights:
@@ -26,3 +25,7 @@ Download the model weights:
 cd autodocking-ros2 && sudo apt install -y git-lfs && git lfs install && git lfs pull
 ```
 
+Copy this repo to inside `sensing-rigs-ros2`:
+```bash
+cd .. && cp -r autodocking-ros2/autodocking_saver sensing-rigs-ros2/ros2_ws/src/sensing_nodes/
+```
